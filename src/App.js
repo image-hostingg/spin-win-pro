@@ -1,4 +1,5 @@
 // src/App.js
+import { Analytics } from "@vercel/analytics/react";
 import React, { useState, useRef } from 'react';
 import Header from './components/Header';
 import SpinWheel from './components/SpinWheel';
