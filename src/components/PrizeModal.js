@@ -35,7 +35,7 @@ const PrizeModal = ({ prize, onClose }) => { // Removed simulatedShareCount, onS
     };
 
     const handleShareClick = () => {
-        const message = `I just won ${prize} on Spin Win Pro! Try your luck here: ${APP_URL}`;
+        const message = `मुझे अभी Spin Win Pro पर ${prize} मिले हैं! आप भी अपनी किस्मत यहाँ आज़माएँ I just won ${prize} on Spin Win Pro! Try your luck here: ${APP_URL}`;
         window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, '_blank');
         setSimulatedShareCount(prev => prev + 1); // Increment simulated count
     };

@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 const LiveSpinCounter = () => {
-  const [totalSpins, setTotalSpins] = useState(15345); // Starting value
+  const [totalSpins, setTotalSpins] = useState(() => Math.floor(Math.random() * (50000 - 5000 + 1)) + 5000 ); // Starting value
 
   useEffect(() => {
     const interval = setInterval(() => {
