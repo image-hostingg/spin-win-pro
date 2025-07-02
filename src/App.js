@@ -87,6 +87,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col items-center bg-background font-inter">
+      <Analytics />
       <Header />
 
       <main className="flex flex-col items-center p-4 w-full max-w-screen-xl mx-auto flex-grow">
